@@ -680,7 +680,8 @@ button { font: inherit; color: inherit; }
   text-align: center;
 }
 .month__photo { width: fit-content; max-width: 82%; margin-bottom: 1.1rem; }
-.month__photo .photo { height: min(38cqh, 380px); width: auto; max-width: 68cqw; }
+/* width is spelled out from the height (Safari would size the frame to the full-size image otherwise) */
+.month__photo .photo { --h: min(38cqh, 380px); height: var(--h); width: calc(var(--h) * var(--ratio, 4/5)); max-width: 68cqw; }
 .month__label { margin: 0; font-family: var(--font-hand); font-size: 1.55rem; font-weight: 600; line-height: 1; color: var(--rose); }
 .month__title { margin: .3rem 0 .5rem; font-size: 1.4rem; }
 .month__excerpt { max-width: 34ch; margin: 0 auto .9rem; font-style: italic; line-height: 1.55; color: var(--brown); }
@@ -962,7 +963,7 @@ button { font: inherit; color: inherit; }
 }
 .g-item { display: flex; justify-content: center; width: 100%; min-height: 0; }
 .g-item .polaroid { width: fit-content; max-width: 100%; }
-.g-item .photo { height: min(30cqh, 280px); width: auto; max-width: calc(50cqw - 1.6rem); }
+.g-item .photo { --h: min(30cqh, 280px); height: var(--h); width: calc(var(--h) * var(--ratio, 4/5)); max-width: calc(50cqw - 1.6rem); }
 .g-item .polaroid figcaption { font-size: 1.1rem; min-height: 2.1rem; }
 /* captions wrap to the photo's width instead of widening the frame */
 .g-item .polaroid figcaption,
@@ -993,7 +994,7 @@ button { font: inherit; color: inherit; }
   align-items: start;
 }
 .forever__photos .polaroid { width: fit-content; max-width: 100%; justify-self: center; }
-.forever__photos .photo { height: 36cqh; width: auto; max-width: calc(50cqw - 1.6rem); }
+.forever__photos .photo { --h: 36cqh; height: var(--h); width: calc(var(--h) * var(--ratio, 4/5)); max-width: calc(50cqw - 1.6rem); }
 .forever__photos .polaroid:nth-of-type(2) { margin-top: 2.5rem; }
 .forever__note {
   grid-column: 1 / -1;
