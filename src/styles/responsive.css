@@ -1,0 +1,29 @@
+/* ==========================================================================
+   Our Little Universe — screen-size tweaks
+   The book itself switches between single pages and open spreads in Book.tsx
+   (min-width: 900px and landscape), via the .is-single / .is-spread classes.
+   ========================================================================== */
+
+/* ---------- small phones only ---------- */
+@media (max-width: 599px) {
+  /* the letter stays a sheet of paper held over the book, not a full screen */
+  .dlg[open] { padding: max(.9rem, env(safe-area-inset-top)) .75rem max(.9rem, env(safe-area-inset-bottom)); }
+  .letter { width: 100%; height: 100%; }
+  .letter__foot .ink-btn span { display: none; }   /* arrows only for previous/next */
+}
+
+/* ---------- desktop ---------- */
+@media (min-width: 900px) {
+  .lightbox__media img { max-height: min(72svh, calc(100svh - 13rem)); }
+}
+
+/* ---------- short screens: the photo viewer's caption and arrows take less room ---------- */
+@media (max-height: 560px) {
+  .lightbox { padding-top: 3rem; gap: .5rem; }
+  .lightbox__caption { font-size: 1.25rem; padding-block: .35rem .5rem; }
+}
+
+/* ---------- short screens: keep the spread's tabs from running off the page ---------- */
+@media (max-height: 640px) {
+  .tab { min-height: 4.2rem; font-size: 1rem; padding-block: .5rem; }
+}
