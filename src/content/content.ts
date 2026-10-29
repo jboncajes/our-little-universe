@@ -47,7 +47,7 @@ export const content: SiteContent = {
   entrance: {
     enabled: true,
     question: "Before you open it… what do I always call you?",
-    answers: ["baby", "hon"],          // not case- or punctuation-sensitive
+    answers: ["baby", "hon", "babyyy", "baby ko"],          // not case- or punctuation-sensitive
     wrongReplies: [
       "Hmm, that's not it… try again? ♡",
       "Close! (Not really.) One more try.",
