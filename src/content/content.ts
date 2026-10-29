@@ -66,7 +66,7 @@ export const content: SiteContent = {
   sections: {
     story:        { eyebrow: "chapter one",   intro: "Every month, I wrote you a letter. Here they are in order — little pieces of us, one month at a time." },
     letters:      { eyebrow: "chapter two",   intro: "These are the letters I wrote you over the course of us. Open any envelope whenever you want to read them again." },
-    us:           { eyebrow: "chapter three", intro: "Twelve little notes about my favorite thing in the whole world: us. Lift each one to read it." },
+    us:           { eyebrow: "chapter three", intro: "Twelve little notes about my favorite thing in the whole world: us." },
     littleThings: { eyebrow: "chapter four",  intro: "Some of my favorite pictures of you, and of us. Tap any photo to hold it up closer." },
     forever:      { eyebrow: "chapter five",  intro: "The future I hope we get to share ♡" },
     lastThing:    { eyebrow: "the last page", intro: "Twelve months, twelve letters. This last one is for our first year ♡" }
@@ -365,19 +365,19 @@ And if I could choose again after everything we've been through, ikaw pa rin. Ik
      (the [[ ]] keeps them on the editing checklist).
      --------------------------------------------------------------------- */
   gallery: [
-    { src: "photos/photo-01.jpg", alt: "A selfie of us at a café table", caption: "[[how you make every food date fun]]", ratio: "4/5" },
+    { src: "photos/photo-01.jpg", alt: "You at a café table, behind an instax photo of you I'm holding up", caption: "[[how you make every food date fun]]", ratio: "4/5" },
     { src: "photos/photo-02.jpg", alt: "Us on a hanging bridge in the forest", caption: "[[how you cross every bridge with me]]", ratio: "3/4" },
     { type: "note", text: "[[The way you laugh at your own jokes before you even finish telling them.]]" },
     { src: "photos/photo-03.jpg", alt: "A night selfie of us watching the fireworks by the bay", caption: "[[how you outshine the fireworks]]", ratio: "4/5" },
-    { src: "photos/photo-04.jpg", alt: "A selfie of us lying close together", caption: "[[your cuddles on lazy days]]", ratio: "1/1" },
+    { src: "photos/photo-04.jpg", alt: "You asleep beside me in the car, the sun on your face", caption: "[[how beautiful you are, even asleep beside me]]", ratio: "1/1" },
     { src: "photos/photo-05.jpg", alt: "A silly selfie of us in the car", caption: "[[your makulit side]]", ratio: "4/3" },
     { src: "photos/photo-06.jpg", alt: "A selfie of us in caps at the park", caption: "[[your smile on sunny days]]", ratio: "4/3" },
     { src: "photos/photo-07.jpg", alt: "Us holding hands on the grass", caption: "[[how you never let go of my hand]]", ratio: "4/5" },
     { type: "note", text: "[[How you always ask if I've eaten — kahit busy ka, kahit pagod ka.]]" },
     { src: "photos/photo-08.jpg", alt: "Our two shadows side by side on the path", caption: "[[how you're always right beside me]]", ratio: "3/4" },
-    { src: "photos/photo-09.jpg", alt: "A close-up selfie of us smiling", caption: "[[your smile, my favorite view]]", ratio: "1/1" },
-    { src: "photos/photo-10.jpg", alt: "A mirror selfie of us in a hallway", caption: "[[how perfectly you fit next to me]]", ratio: "3/4" },
-    { src: "photos/photo-11.jpg", alt: "A selfie of us in front of a colorful wall", caption: "[[how pretty you are, always]]", ratio: "4/3" },
+    { src: "photos/photo-09.jpg", alt: "Your mirror selfie on our first coffee date", caption: "[[how you make every first feel special]]", ratio: "1/1" },
+    { src: "photos/photo-10.jpg", alt: "You with a bouquet of yellow flowers", caption: "[[how you're even prettier than the flowers]]", ratio: "3/4" },
+    { src: "photos/photo-11.jpg", alt: "You resting your chin on your hand, looking at me", caption: "[[how one look from you melts my heart]]", ratio: "4/5" },
     { src: "photos/photo-12.jpg", alt: "A candid photo of us in matching yellow shirts at a café, you smiling at your phone", caption: "[[how we match without even trying]]", ratio: "3/4" }
   ],
 
